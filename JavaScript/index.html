@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mystyle{
+            color: green;
+            background-color: lightcyan;
+            text-decoration: underline;
+            padding: 10px 20px;
+        }
+        .heading{
+            color: blue;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        .d-none{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="js" class="heading">Java Script</h1>
+    <!-- <h1 class="heading">HTML</h1>
+    <h1 class="heading">CSS</h1>
+    <h1>Bootstrap</h1> -->
+
+    <button onclick="handleevent()" >Click</button>
+    <h1 onmouseover="this.innerHTML='If You Can'" onmouseout="this.innerHTML='Catch Me'">Catch Me</h1>
+
+    <div class="box" id="box">
+
+    </div>
+    <button onclick="changeToRed()" >Red</button>
+    <button onclick="changeToGreen()" >Green</button>
+    <button onclick="changeToBlue()" >Blue</button>
+    <button onclick="changeToWhite()" >White</button>
+    <button onclick="hide()" id="hide">hide</button>
+
+    <!-- <script src="./js/js-master.js"></script> -->
+    <!-- <script src="./js/string.js"></script> -->
+    <!-- <script src="./js/array.js"></script> -->
+    <!-- <script src="./js/object.js"></script> -->
+    <!-- <script src="./js/dialog-box.js"></script> -->
+    <!-- <script src="./js/dom.js"></script> -->
+    <script src="./js/event.js"></script>
+</body>
+</html>
